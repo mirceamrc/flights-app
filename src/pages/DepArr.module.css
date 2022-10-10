@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+
+.bdy {
+  display: flex;
+  justify-content: center;
+  /* height: 100vh; */
+  align-items: center;
+  /* background-color: rgb(10, 9, 9); */
+  color: rgb(240, 240, 240);
+
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: rgb(240, 240, 240);
+  font-size: 35px;
+}
+
+.departures {
+  background-color: rgb(212, 188, 30);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
+}
+
+.headerDep {
+  height: 58px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.departures table {
+  background-color: rgb(68, 66, 66);
+  text-align: left;
+}
+
+.departures table td {
+  height: 50px;
+}
+
+.departures table div {
+  border: solid 4px rgb(26, 26, 26);
+  background-color: black;
+  float: left;
+  height: 60px;
+}

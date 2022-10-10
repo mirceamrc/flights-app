@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: rgb(240, 240, 240);
+  font-size: 35px;
+}
+
+.flip {
+  animation: 1.5s linear flipping;
+}
+
+@keyframes flipping {
+  0% {
+    transform: rotateX(0deg);
+  }
+  20% {
+    transform: rotateX(360deg);
+  }
+  40% {
+    transform: rotateX(0deg);
+  }
+  60% {
+    transform: rotateX(360deg);
+  }
+  80% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
